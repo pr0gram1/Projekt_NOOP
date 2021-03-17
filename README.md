@@ -1,6 +1,6 @@
 # Popis Studenata - Projekt NOOP Tomislav
 
-Unutar ovoga reporitorija su dostupna dva Java projekta za preuzezi.
+Unutar ovoga repozitorija su dostupna dva Java projekta za preuzeti.
 
 1. Tomislav_Dundović_NOOP_Projekt
 
