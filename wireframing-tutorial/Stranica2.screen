@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Button" id="12" x="1291" y="640" width="215" text="Sljedeca stranica" measuredWidth="215" measuredHeight="25" background="#6aa84f" link="Stranica3.screen" style="pointright">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="175" y="402" text="or" measuredWidth="21" measuredHeight="29" foreground="#fff">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="76" x="1024" y="128" width="765" height="212" text="id,ime,prezime.,datumRodenja,odabirFakulteta,odabirStudija,vrstaStudenta,godinaStudiranja,xica,bavljenjeSportom&#xA;0,Tome,Tomic,21/08/1998,UNI_Zadar,IT,Izvanredan,Druga_Godina,Neposjeduje,Rekreativac&#xA;1,Mate,Matic,12/05/1997,UNI_Split,Arheologija,Redovan,Prva_Godina,Posjeduje,Natjecatelj&#xA;" measuredWidth="765" measuredHeight="212" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="77" x="1788" y="128" height="212" measuredWidth="17" measuredHeight="212"/>
+  <widgets xsi:type="model:Panel" id="78" x="1024" y="339" width="765" height="104" measuredWidth="765" measuredHeight="104"/>
+  <widgets xsi:type="model:VScrollbar" id="79" x="1788" y="339" height="104" measuredWidth="17" measuredHeight="104"/>
+  <widgets xsi:type="model:Menu" id="80" x="1024" y="102" width="781" text="&amp;Opcije,&amp;Server" measuredWidth="781" measuredHeight="27">
+    <items x="5" y="0" width="45" height="27" text="&amp;Opcije"/>
+    <items x="50" y="0" width="43" height="27" text="&amp;Server"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="81" x="1024" y="432" width="781" height="156" text="Upis podataka studenta" measuredWidth="781" measuredHeight="156">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="82" x="1121" y="468" text="Ime:" measuredWidth="29" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="83" x="1099" y="500" text="Prezime:" measuredWidth="51" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="84" x="1059" y="556" text="Datum Rodenja:" measuredWidth="91" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="85" x="1273" y="556" width="83" text="IT" measuredWidth="83" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="86" x="1505" y="556" text="Posjeduje" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="87" x="1273" y="534" text="Odabir studija:" measuredWidth="83" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="88" x="1505" y="534" text="Pravo na x-icu:" measuredWidth="85" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="89" x="1161" y="468" width="58" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="90" x="1161" y="500" width="58" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="91" x="1268" y="475" width="88" height="48" text="UNI_Zadar&#xA;UNI_Split&#xA;UNI_Zagreb&#xA;" measuredWidth="88" measuredHeight="48">
+    <font/>
+    <items x="0" y="2" width="88" height="21" text="UNI_Zadar"/>
+    <items x="0" y="23" width="88" height="21" text="UNI_Split"/>
+    <items x="0" y="44" width="88" height="21" text="UNI_Zagreb"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="92" x="1268" y="453" text="Odabir fakulteta:" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="93" x="1393" y="453" text="Vrsta studenta:" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="94" x="1502" y="453" text="Godina studiranja:" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="95" x="1503" y="475" width="100" height="48" text="PrvaGodina&#xA;DrugaGodina&#xA;TrecaGodina&#xA;" measuredWidth="100" measuredHeight="48">
+    <font/>
+    <items x="0" y="2" width="100" height="21" text="PrvaGodina"/>
+    <items x="0" y="23" width="100" height="21" text="DrugaGodina"/>
+    <items x="0" y="44" width="100" height="21" text="TrecaGodina"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="96" x="1371" y="477" text="(o) Izvanredni student &#xA;&#xA;( ) Redoviti student&#xA;" measuredWidth="130" measuredHeight="70" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="130" height="22" text="(o) Izvanredni student "/>
+    <items x="0" y="24" width="130" height="22"/>
+    <items x="0" y="46" width="130" height="22" text="( ) Redoviti student"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="97" x="1625" y="453" text="Sport:" measuredWidth="37" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="98" x="1661" y="456" text="(o) Rekreativac&#xA;( ) Natjecatelj&#xA;" measuredWidth="90" measuredHeight="48" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="90" height="22" text="(o) Rekreativac"/>
+    <items x="0" y="24" width="90" height="22" text="( ) Natjecatelj"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="99" x="1665" y="555" text="Potvrda" measuredWidth="61" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="100" x="1032" y="346" width="765" height="89" text="Citatelj [id=0, ime=Tome, prezime=Tomic, datumRodenja=21/08/1998, odabirFakulteta=UNI_Zadar, odabirStudija=IT, vrstaStudenta=Izvanredni student, godinaStudija=TrecaGodina, xica=Neposjeduje, bavljenjeSportom=Rekreativac]&#xD;&#xA;&#xD;&#xA;Citatelj [id=1, ime=Mate, prezime=Matic, datumRodenja=12/05/1997, odabirFakulteta=UNI_Split, odabirStudija=Arheologija, vrstaStudenta=Redovan, godinaStudija=DrugaGodina, xica=Posjeduje, bavljenjeSportom=Natjecatelj]&#xD;&#xA;&#xD;&#xA;Citatelj [id=3, ime=Mateo, prezime=Caleta, datumRodenja=1995, odabirFakulteta=UNI_Split, odabirStudija=Nautika, vrstaStudenta=Redoviti student, godinaStudija=CetvrtaGodina, xica=Neposjeduje, bavljenjeSportom=Rekreativac]" measuredWidth="765" measuredHeight="89">
+    <font/>
+    <items x="0" y="0" width="752" height="30" text="id=0, ime=Tome, prezime=Tomic, datumRodenja=21/08/1998, odabirFakulteta=UNI_Zadar, odabirStudija=IT, vrstaStudenta=Izvanredni student, godinaStudija=TrecaGodina, xica=Neposjeduje, bavljenjeSportom=Rekreativac"/>
+    <items x="0" y="45" width="656" height="30" text="id=1, ime=Mate, prezime=Matic, datumRodenja=12/05/1997, odabirFakulteta=UNI_Split, odabirStudija=Arheologija, vrstaStudenta=Redovan, godinaStudija=DrugaGodina, xica=Posjeduje, bavljenjeSportom=Natjecatelj"/>
+    <items x="0" y="90" width="738" height="30" text="id=3, ime=Mateo, prezime=Caleta, datumRodenja=1995, odabirFakulteta=UNI_Split, odabirStudija=Nautika, vrstaStudenta=Redoviti student, godinaStudija=CetvrtaGodina, xica=Neposjeduje, bavljenjeSportom=Rekreativac"/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="101" x="1339" y="477" height="46" measuredWidth="17" measuredHeight="46"/>
+  <widgets xsi:type="model:VScrollbar" id="102" x="1589" y="475" height="48" measuredWidth="17" measuredHeight="48"/>
+  <widgets xsi:type="model:Window" id="103" x="1024" y="84" width="781" height="19" text="Popis Studenata - Projekt NOOP Tomislav" measuredWidth="781" measuredHeight="19"/>
+  <widgets xsi:type="model:DateField" id="104" x="1161" y="556" text="  /  /  " measuredWidth="58" measuredHeight="23"/>
+  <widgets xsi:type="model:Arrow" id="105" x="904" y="177" width="121" height="142" measuredWidth="121" measuredHeight="142" direction="bottom"/>
+  <widgets xsi:type="model:Text" id="110" x="488" y="323" width="400" height="120" text="Nakon klika Potvrda botuna sve informacije za studenta ce biti zapisane unutar JTablea te ce se konzolno ispisivati u donjem panelu." measuredWidth="400" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="111" x="483" y="313" height="73" measuredWidth="6" measuredHeight="73"/>
+  <widgets xsi:type="model:HLine" id="112" x="483" y="380" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="113" x="483" y="313" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="114" x="910" y="313" height="73" measuredWidth="6" measuredHeight="73"/>
+  <widgets xsi:type="model:Arrow" id="115" x="915" y="368" width="118" height="17" measuredWidth="118" measuredHeight="17"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+  <note>This screen shows a typical wireframe that you can create using *WireframeSketcher*.
+
+With *WireframeSketcher* you get a rough, unfinished, hand-drawn look for your mockups. This way your stakeholders won't be distracted by little details and you can focus on what's important. When needed, you can instantly switch to a clean look.</note>
+</model:Screen>

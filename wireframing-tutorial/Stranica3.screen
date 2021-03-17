@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Button" id="1" x="1112" y="456" width="234" text="Sljedeca stranica" measuredWidth="234" measuredHeight="25" background="#6aa84f" link="Stranica4.screen" style="pointright">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="39" x="984" y="108" width="529" height="312" text="Save" measuredWidth="529" measuredHeight="312"/>
+  <widgets xsi:type="model:Label" id="40" x="1000" y="164" text="Save In:" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="41" x="1096" y="164" width="241" text="        Documents" measuredWidth="241" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="42" x="1104" y="168" width="19" height="16" measuredWidth="19" measuredHeight="16" icon="new (large)"/>
+  <widgets xsi:type="model:Icon" id="43" x="1384" y="164" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="home (large)"/>
+  <widgets xsi:type="model:Icon" id="44" x="1352" y="164" measuredWidth="24" measuredHeight="24" icon="upload (medium)"/>
+  <widgets xsi:type="model:Icon" id="45" x="1416" y="164" measuredWidth="24" measuredHeight="24" icon="new (medium)"/>
+  <widgets xsi:type="model:Icon" id="46" x="1448" y="164" measuredWidth="24" measuredHeight="24" icon="desc (medium)"/>
+  <widgets xsi:type="model:Icon" id="47" x="1479" y="164" measuredWidth="24" measuredHeight="24" icon="neutral (medium)"/>
+  <widgets xsi:type="model:Panel" id="48" x="1000" y="196" width="502" height="128" measuredWidth="502" measuredHeight="128"/>
+  <widgets xsi:type="model:Icon" id="49" x="1013" y="206" width="19" height="16" measuredWidth="19" measuredHeight="16" icon="new (large)"/>
+  <widgets xsi:type="model:Icon" id="50" x="1013" y="228" width="19" height="16" measuredWidth="19" measuredHeight="16" icon="new (large)"/>
+  <widgets xsi:type="model:Icon" id="51" x="1013" y="250" width="19" height="16" measuredWidth="19" measuredHeight="16" icon="new (large)"/>
+  <widgets xsi:type="model:Icon" id="52" x="1013" y="276" width="19" height="16" measuredWidth="19" measuredHeight="16" icon="new (large)"/>
+  <widgets xsi:type="model:Icon" id="53" x="1013" y="300" width="19" height="16" measuredWidth="19" measuredHeight="16" icon="new (large)"/>
+  <widgets xsi:type="model:Label" id="54" x="1045" y="202" text="Photos" measuredWidth="43" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="1045" y="224" text="Videos" measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="1045" y="246" text="Games" measuredWidth="42" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="57" x="1045" y="272" text="Music" measuredWidth="38" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="1045" y="296" text="University" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="1000" y="332" text="File Name:" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="60" x="1000" y="354" text="Files of Type:" measuredWidth="73" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="61" x="1072" y="354" width="430" text="Studentovi dokumenti(*.stud)" measuredWidth="430" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="62" x="1072" y="332" width="430" text="Text field" measuredWidth="430" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="63" x="1364" y="385" text="Save" measuredWidth="44" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="64" x="1438" y="385" text="Cancel" measuredWidth="56" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="65" x="838" y="165" width="147" height="24" measuredWidth="147" measuredHeight="24" direction="bottom"/>
+  <widgets xsi:type="model:Text" id="71" x="439" y="206" width="400" height="120" text="Nalazimo se unutar dijela JMenuBar-a u kojemu korisnik može saveati sve spremljenje podatke od studenata na svome računalu. Korisnik odabere koja će mu biti save destinacija" measuredWidth="400" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="72" x="434" y="196" height="73" measuredWidth="6" measuredHeight="73"/>
+  <widgets xsi:type="model:HLine" id="73" x="434" y="263" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="74" x="434" y="196" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="75" x="861" y="196" height="73" measuredWidth="6" measuredHeight="73"/>
+  <widgets xsi:type="model:Arrow" id="76" x="1385" y="400" width="39" height="112" measuredWidth="39" measuredHeight="112" left="false" right="true"/>
+  <widgets xsi:type="model:Text" id="77" x="1248" y="528" width="400" height="120" text="Klikom na botun Save korisnik sprema podatke studenata na svome racunalo pod imenom Studentovi dokumenti sa ekstenzijom .stud" measuredWidth="400" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="78" x="1243" y="518" height="73" measuredWidth="6" measuredHeight="73"/>
+  <widgets xsi:type="model:HLine" id="79" x="1243" y="585" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="80" x="1243" y="518" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="81" x="1670" y="518" height="73" measuredWidth="6" measuredHeight="73"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+  <note>*WireframeSketcher* can be easily extended with custom assets.
+
+Make use of the user-contributed Mockups Gallery to jump-start your mockups and to get inspiration from. Find Android, iPhone, iPad, Windows Phone stencils, extra icons and other useful resources on our website or directly under *Help > Add Assets from Mockups Gallery...*.
+
+Do you need a common template, a master for all your screens? Want to reuse that standard dialog in multiple places? Use components to do just that. Changes to a component are instantly visible in all screens that use it. You can put them in the palette and create your own stencils. Any screen can be a used as a component. This means that creating screen variations is easy without any duplication. Easy inheritance mechanism lets you alter component's instance without breaking the link to its origin.
+
+Missing a widget? Want to include a logo? WireframeSketcher lets you use your own images. Color images can be conveniently drawn in black and white to blend in with the overall look of the wireframe. And the best thing - you can use SVG vector graphic images which will even automatically get the hand-drawn look.
+</note>
+</model:Screen>

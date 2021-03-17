@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Button" id="12" x="1391" y="951" width="234" text="Klik na potvrda se dogodi..." measuredWidth="234" measuredHeight="25" background="#6aa84f" link="Stranica2.screen" style="pointright">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="16" x="888" y="458" width="765" height="212" text="id,ime,prezime.,datumRodenja,odabirFakulteta,odabirStudija,vrstaStudenta,godinaStudiranja,xica,bavljenjeSportom&#xA;0,Tome,Tomic,21/08/1998,UNI_Zadar,IT,Izvanredan,Druga_Godina,Neposjeduje,Rekreativac&#xA;&#xA;" measuredWidth="765" measuredHeight="212" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="17" x="1652" y="458" height="212" measuredWidth="17" measuredHeight="212"/>
+  <widgets xsi:type="model:Panel" id="18" x="888" y="669" width="765" height="104" measuredWidth="765" measuredHeight="104"/>
+  <widgets xsi:type="model:VScrollbar" id="19" x="1652" y="669" height="104" measuredWidth="17" measuredHeight="104"/>
+  <widgets xsi:type="model:Menu" id="20" x="888" y="432" width="781" text="&amp;Opcije,&amp;Server" measuredWidth="781" measuredHeight="27">
+    <items x="5" y="0" width="45" height="27" text="&amp;Opcije"/>
+    <items x="50" y="0" width="43" height="27" text="&amp;Server"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="41" x="888" y="762" width="781" height="156" text="Upis podataka studenta" measuredWidth="781" measuredHeight="156">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="985" y="798" text="Ime:" measuredWidth="29" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="963" y="830" text="Prezime:" measuredWidth="51" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="923" y="886" text="Datum Rodenja:" measuredWidth="91" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="45" x="1137" y="886" width="89" text="Arheologija" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="46" x="1369" y="886" text="Posjeduje" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="1137" y="864" text="Odabir studija:" measuredWidth="83" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="1369" y="864" text="Pravo na x-icu:" measuredWidth="85" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="49" x="1025" y="798" width="58" text="Mate" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="50" x="1025" y="830" width="58" text="Matic" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="52" x="1132" y="805" width="88" height="48" text="UNI_Zadar&#xA;UNI_Split&#xA;UNI_Zagreb&#xA;" measuredWidth="88" measuredHeight="48">
+    <font/>
+    <items x="0" y="2" width="88" height="21" text="UNI_Zadar"/>
+    <items x="0" y="23" width="88" height="21" text="UNI_Split"/>
+    <items x="0" y="44" width="88" height="21" text="UNI_Zagreb"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="53" x="1132" y="783" text="Odabir fakulteta:" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="1257" y="783" text="Vrsta studenta:" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="1366" y="783" text="Godina studiranja:" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="56" x="1367" y="805" width="100" height="48" text="PrvaGodina&#xA;DrugaGodina&#xA;TrecaGodina&#xA;" measuredWidth="100" measuredHeight="48">
+    <font/>
+    <items x="0" y="2" width="100" height="21" text="PrvaGodina"/>
+    <items x="0" y="23" width="100" height="21" text="DrugaGodina"/>
+    <items x="0" y="44" width="100" height="21" text="TrecaGodina"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="57" x="1235" y="807" text="() Izvanredni student &#xA;&#xA;(o) Redoviti student&#xA;" measuredWidth="130" measuredHeight="70" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="130" height="22" text="() Izvanredni student "/>
+    <items x="0" y="24" width="130" height="22"/>
+    <items x="0" y="46" width="130" height="22" text="(o) Redoviti student"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="1489" y="783" text="Sport:" measuredWidth="37" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="59" x="1525" y="786" text="() Rekreativac&#xA;(o) Natjecatelj&#xA;" measuredWidth="90" measuredHeight="48" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="90" height="22" text="() Rekreativac"/>
+    <items x="0" y="24" width="90" height="22" text="(o) Natjecatelj"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="60" x="1529" y="885" text="Potvrda" measuredWidth="61" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="62" x="1203" y="807" height="46" measuredWidth="17" measuredHeight="46"/>
+  <widgets xsi:type="model:VScrollbar" id="63" x="1453" y="805" height="48" measuredWidth="17" measuredHeight="48"/>
+  <widgets xsi:type="model:Window" id="64" x="888" y="414" width="781" height="19" text="Popis Studenata - Projekt NOOP Tomislav" measuredWidth="781" measuredHeight="19"/>
+  <widgets xsi:type="model:Arrow" id="155" x="705" y="443" width="184" height="8" measuredWidth="184" measuredHeight="8" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="165" x="569" y="497" width="8" height="103" measuredWidth="8" measuredHeight="103" left="false" right="true"/>
+  <widgets xsi:type="model:Alert" id="166" x="426" y="599" text="Exit dialog&#xA;Da li ste sigurni da bi ste izašli iz app&#xA;OK,Cancel" measuredWidth="277" measuredHeight="132" icon="warning (large)">
+    <items x="87" y="93" width="80" height="24" text="OK"/>
+    <items x="182" y="93" width="80" height="24" text="Cancel"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="167" x="1025" y="886" text=" 12/05/1997 " measuredWidth="94" measuredHeight="23"/>
+  <widgets xsi:type="model:Popup" id="168" x="424" y="414" text="&amp;Spremanje podataka u dokument, Shift-S&#xA;&amp;Importiranje podataka sa dokumenta&#xA;---&#xA;Izlazak iz aplikacije, Shift-E&#xA;" measuredWidth="282" measuredHeight="84">
+    <items x="0" y="2" width="282" height="23" text="&amp;Spremanje podataka u dokument, Shift-S"/>
+    <items x="0" y="25" width="282" height="23" text="&amp;Importiranje podataka sa dokumenta"/>
+    <items x="0" y="48" width="282" height="11" text="---"/>
+    <items x="0" y="59" width="282" height="23" text="Izlazak iz aplikacije, Shift-E"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="169" x="985" y="371" width="16" height="73" measuredWidth="16" measuredHeight="73" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Popup" id="170" x="985" y="288" text="&amp;Spremi podatke na server, Shift-O&#xA;&amp;Importiranje podataka sa servera, Shift-T&#xA;---&#xA;Odspajanje sa servera&#xA;" measuredWidth="277" measuredHeight="84">
+    <items x="0" y="2" width="277" height="23" text="&amp;Spremi podatke na server, Shift-O"/>
+    <items x="0" y="25" width="277" height="23" text="&amp;Importiranje podataka sa servera, Shift-T"/>
+    <items x="0" y="48" width="277" height="11" text="---"/>
+    <items x="0" y="59" width="277" height="23" text="Odspajanje sa servera"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="172" x="1560" y="909" width="8" height="43" measuredWidth="8" measuredHeight="43" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="203" x="784" y="827" width="115" height="94" measuredWidth="115" measuredHeight="94" direction="bottom"/>
+  <widgets xsi:type="model:Text" id="204" x="575" y="938" width="400" height="120" text="Dio panela u kojemu korisnik definira koji će biti studentovi podaci.Podaci se kreiraju uz pomoć JTextFielda, JComboBoxa, JListe te JRadioBottun Nakon sto je korisnik definirao podatke za spremanje unutar tablice se mora kliknuti Potvrda botun" measuredWidth="400" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="205" x="570" y="928" height="73" measuredWidth="6" measuredHeight="73"/>
+  <widgets xsi:type="model:HLine" id="206" x="570" y="995" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="207" x="570" y="928" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="208" x="997" y="928" height="73" measuredWidth="6" measuredHeight="73"/>
+  <widgets xsi:type="model:Arrow" id="209" x="1204" y="184" width="109" height="105" measuredWidth="109" measuredHeight="105" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Text" id="214" x="1328" y="112" width="400" height="120" text="Unutar JMenuBara se nalazi Server traka. Unutar server trake osim sto korisnik moze save i import podatke na vlastito racunalo, također može podatke saveati te importati sa servera koji se nalazi na stranici db4free.com. Unutar ove stranice se nalazi baza podataka sa svim zadnjim izmjenama studenata" measuredWidth="400" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="215" x="1323" y="102" height="96" measuredWidth="6" measuredHeight="96"/>
+  <widgets xsi:type="model:HLine" id="216" x="1323" y="192" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="217" x="1323" y="102" width="431" measuredWidth="431" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="218" x="1750" y="102" height="96" measuredWidth="6" measuredHeight="96"/>
+  <hRuler>
+    <guides position="244"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+  <note>This the start screen that shows all the main parts of the *WireframeSketcher*'s user interface.
+
+You can find out more detailed information about each part by consulting the integrated help that can be opened using *F1*.
+
+This description in particular is a screen note that you can edit using the *Notes* view.</note>
+</model:Screen>
